@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.uts_e_karangpakel.LoginActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="20dp">
+
+
+        <ImageView
+            android:background="@drawable/umkmlogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="19dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="25dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="19dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="18dp"
+            android:text="Login"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" >
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegis"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Daftar"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" >
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+</LinearLayout>

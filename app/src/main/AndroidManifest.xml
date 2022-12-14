@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.uts_e_karangpakel">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UTS_EKARANGPAKEL"
+        tools:targetApi="31">
+        <activity
+            android:name=".paket6"
+            android:label="Eco Roso"
+            android:exported="false" />
+        <activity
+            android:name=".paket5"
+            android:label="Bolen Pisang"
+            android:exported="false" />
+        <activity
+            android:name=".paket4"
+            android:label="Sepatu"
+            android:exported="false" />
+        <activity
+            android:name=".paket3"
+            android:label="Baju"
+            android:exported="false" />
+        <activity
+            android:name=".paket2"
+            android:label="Tas Rotan"
+            android:exported="false" />
+        <activity
+            android:name=".paket1"
+            android:label="Anyaman Rotan"
+            android:exported="false" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".BayarActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
